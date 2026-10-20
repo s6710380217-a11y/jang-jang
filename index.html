@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="พื้นที่เรียนรู้ศิลปะและวัฒนธรรมไทย ตั้งแต่สถาปัตยกรรม นาฏศิลป์ ประเพณี ผ้าไทย อาหาร และภูมิปัญญาท้องถิ่น">
+  <meta name="theme-color" content="#351b1b">
+  <title>สืบศิลป์ไทย | ศิลปะและวัฒนธรรมไทย</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="สืบศิลป์ไทย หน้าแรก">
+        <span class="brand-mark" aria-hidden="true">ศ</span>
+        <span><strong>สืบศิลป์ไทย</strong><small>THAI ART & CULTURE</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="เปิดเมนู">☰</button>
+      <nav id="primaryNav" class="primary-nav" aria-label="เมนูหลัก">
+        <a class="nav-link active" href="#home">หน้าแรก</a>
+        <a class="nav-link" href="#discover">สำรวจวัฒนธรรม</a>
+        <a class="nav-link" href="#regions">4 ภูมิภาค</a>
+        <a class="nav-link" href="#gallery">คลังภาพ</a>
+        <a class="nav-link" href="#quiz">แบบทดสอบ</a>
+        <a class="nav-link" href="#about">เกี่ยวกับ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-text reveal">
+        <p class="eyebrow"><span></span> มรดกที่มีชีวิต • เรื่องราวที่ส่งต่อ</p>
+        <h1>ศิลปะและ<br><em>วัฒนธรรมไทย</em></h1>
+        <p class="hero-copy">เดินทางผ่านลวดลาย เรื่องเล่า และภูมิปัญญาที่หล่อหลอมความเป็นไทยจากอดีตสู่ปัจจุบัน</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#discover">เริ่มสำรวจ <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="#about">รู้จักเว็บไซต์</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span>เรียนรู้ด้วยความเข้าใจ เคารพความหลากหลาย</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="ภาพประกอบสถาปัตยกรรมไทย">
+        <div class="hero-image"></div>
+        <div class="image-caption"><span class="caption-dot"></span><span><b>งามศิลป์ ถิ่นสยาม</b><small>มองเห็นคุณค่าในรายละเอียด</small></span></div>
+        <div class="seal" aria-hidden="true"><span>THAI</span><b>✳</b><span>CULTURE</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 / 04</span><span class="bottom-rule"></span><span>ค้นพบความงามในทุกภูมิภาค</span></div>
+      <div class="ornament ornament-one" aria-hidden="true">❋</div><div class="ornament ornament-two" aria-hidden="true">✳</div>
+    </section>
+
+    <section class="intro section-pad reveal">
+      <div class="section-kicker">A LIVING HERITAGE <span>✦</span></div>
+      <div class="intro-grid"><h2>วัฒนธรรมไม่ใช่แค่<br><em>สิ่งที่เรามองเห็น</em></h2><p>แต่ยังเป็นความคิด ความเชื่อ ความรู้ และวิถีชีวิตที่ผู้คนเรียนรู้และส่งต่อกัน เนื้อหาในเว็บไซต์นี้ชวนสำรวจศิลปะไทยอย่างเปิดกว้าง พร้อมตั้งคำถามและเรียนรู้บริบทของแต่ละชุมชน</p></div>
+    </section>
+
+    <section class="discover section-pad" id="discover">
+      <div class="section-heading reveal"><div><p class="eyebrow">EXPLORE THE COLLECTION</p><h2>เลือกเส้นทางที่คุณสนใจ</h2></div><p>เรื่องราวหลากหลายมุม<br>ของศิลปวัฒนธรรมไทย</p></div>
+      <div class="search-row reveal">
+        <label class="search-box"><span aria-hidden="true">⌕</span><input id="siteSearch" type="search" placeholder="ค้นหา เช่น โขน ผ้าไทย ประเพณี..." aria-label="ค้นหาหมวดหมู่"><kbd>ค้นหา</kbd></label>
+        <div class="filter-chips" aria-label="กรองหมวดหมู่">
+          <button class="chip active" data-filter="all">ทั้งหมด</button><button class="chip" data-filter="art">ศิลปะ</button><button class="chip" data-filter="performance">การแสดง</button><button class="chip" data-filter="living">วิถีชีวิต</button>
+        </div>
+      </div>
+      <div class="card-grid" id="categoryGrid">
+        <article class="culture-card reveal" data-category="art" data-search="สถาปัตยกรรมไทย วัด เจดีย์ อาคาร"><div class="card-image image-temple" role="img" aria-label="ภาพประกอบสถาปัตยกรรมไทย"><span class="card-number">01</span><span class="image-label">ARCHITECTURE</span></div><div class="card-body"><p class="card-tag">ศิลปะไทย</p><h3>สถาปัตยกรรมไทย</h3><p>สำรวจรูปแบบอาคาร วัด และองค์ประกอบทางสถาปัตยกรรมที่สัมพันธ์กับพื้นที่และความเชื่อ</p><button class="text-link" data-open="architecture">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="art" data-search="จิตรกรรมฝาผนัง ภาพเขียน ลายไทย"><div class="card-image image-painting" role="img" aria-label="ภาพประกอบจิตรกรรมและลวดลายไทย"><span class="card-number">02</span><span class="image-label">VISUAL ARTS</span></div><div class="card-body"><p class="card-tag">ทัศนศิลป์</p><h3>จิตรกรรมและลายไทย</h3><p>เรียนรู้เส้น สี ลวดลาย และการเล่าเรื่องผ่านงานจิตรกรรมในบริบทที่แตกต่างกัน</p><button class="text-link" data-open="painting">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="performance" data-search="โขน นาฏศิลป์ รำ ละครไทย"><div class="card-image image-khon" role="img" aria-label="ภาพประกอบศิลปะการแสดงโขน"><span class="card-number">03</span><span class="image-label">PERFORMING ARTS</span></div><div class="card-body"><p class="card-tag">นาฏศิลป์</p><h3>โขนและการแสดงไทย</h3><p>ทำความรู้จักศิลปะการแสดงที่ผสานท่ารำ ดนตรี เครื่องแต่งกาย และเรื่องเล่า</p><button class="text-link" data-open="performance">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="performance" data-search="ดนตรีไทย ระนาด ขิม จะเข้ เครื่องดนตรี"><div class="card-image image-music" role="img" aria-label="ภาพประกอบเครื่องดนตรีไทย"><span class="card-number">04</span><span class="image-label">THAI MUSIC</span></div><div class="card-body"><p class="card-tag">เสียงและจังหวะ</p><h3>เครื่องดนตรีไทย</h3><p>รู้จักเครื่องดนตรีประเภทดีด สี ตี และเป่า รวมถึงบทบาทในวงดนตรีไทย</p><button class="text-link" data-open="music">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="living" data-search="ประเพณี สงกรานต์ ลอยกระทง เทศกาล"><div class="card-image image-festival" role="img" aria-label="ภาพประกอบประเพณีไทย"><span class="card-number">05</span><span class="image-label">TRADITIONS</span></div><div class="card-body"><p class="card-tag">ประเพณี</p><h3>ประเพณีและเทศกาล</h3><p>สำรวจความหมายและการเปลี่ยนแปลงของประเพณี โดยคำนึงถึงบริบทของชุมชน</p><button class="text-link" data-open="traditions">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="living" data-search="ผ้าไทย ผ้าทอ หัตถกรรม เครื่องแต่งกาย"><div class="card-image image-textile" role="img" aria-label="ภาพประกอบผ้าทอและหัตถกรรมไทย"><span class="card-number">06</span><span class="image-label">CRAFT & TEXTILE</span></div><div class="card-body"><p class="card-tag">งานฝีมือ</p><h3>ผ้าไทยและหัตถกรรม</h3><p>เรียนรู้วัสดุ เทคนิคการทอ ลวดลาย และความรู้ที่ช่างฝีมือสืบทอด</p><button class="text-link" data-open="textile">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="living" data-search="อาหารไทย ภูมิปัญญา อาหารท้องถิ่น"><div class="card-image image-food" role="img" aria-label="ภาพประกอบอาหารไทย"><span class="card-number">07</span><span class="image-label">FOOD HERITAGE</span></div><div class="card-body"><p class="card-tag">ภูมิปัญญา</p><h3>อาหารและภูมิปัญญา</h3><p>มองอาหารเป็นองค์ความรู้ที่เชื่อมโยงวัตถุดิบ ภูมิอากาศ และวิถีของผู้คน</p><button class="text-link" data-open="food">อ่านเรื่องราว <span>↗</span></button></div></article>
+        <article class="culture-card reveal" data-category="living" data-search="วัฒนธรรม 4 ภาค เหนือ กลาง อีสาน ใต้"><div class="card-image image-regions" role="img" aria-label="ภาพประกอบความหลากหลายของวัฒนธรรมไทย"><span class="card-number">08</span><span class="image-label">LOCAL WISDOM</span></div><div class="card-body"><p class="card-tag">ความหลากหลาย</p><h3>วัฒนธรรมท้องถิ่น</h3><p>มองเห็นความหลากหลายระหว่างภูมิภาคและชุมชน โดยไม่เหมารวมว่าทุกพื้นที่เหมือนกัน</p><button class="text-link" data-open="regions">อ่านเรื่องราว <span>↗</span></button></div></article>
+      </div>
+      <p id="noResults" class="no-results" hidden>ไม่พบหัวข้อที่ตรงกับคำค้น ลองใช้คำอื่นได้เลย</p>
+    </section>
+
+    <section class="regions section-pad" id="regions">
+      <div class="section-heading light reveal"><div><p class="eyebrow">ONE COUNTRY, MANY STORIES</p><h2>สี่ภูมิภาค หลายอัตลักษณ์</h2></div><p>เรียนรู้ความแตกต่าง<br>ด้วยความเคารพในบริบท</p></div>
+      <div class="region-grid">
+        <button class="region-tile reveal" data-open="north"><span class="region-no">01 / NORTH</span><strong>ภาคเหนือ</strong><span>ล้านนา • งานหัตถกรรม • วิถีชุมชน</span><i>↗</i></button>
+        <button class="region-tile reveal" data-open="central"><span class="region-no">02 / CENTRAL</span><strong>ภาคกลาง</strong><span>ลุ่มน้ำ • สถาปัตยกรรม • วิถีเกษตร</span><i>↗</i></button>
+        <button class="region-tile reveal" data-open="isan"><span class="region-no">03 / NORTHEAST</span><strong>ภาคตะวันออกเฉียงเหนือ</strong><span>หมอลำ • ผ้าทอ • ประเพณีชุมชน</span><i>↗</i></button>
+        <button class="region-tile reveal" data-open="south"><span class="region-no">04 / SOUTH</span><strong>ภาคใต้</strong><span>พหุวัฒนธรรม • หนังตะลุง • โนรา</span><i>↗</i></button>
+      </div>
+      <p class="region-footnote">ตัวอย่างข้างต้นเป็นหัวข้อชวนศึกษา วัฒนธรรมจริงมีความหลากหลายทั้งภายในและระหว่างชุมชน</p>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="section-heading reveal"><div><p class="eyebrow">VISUAL JOURNEY</p><h2>คลังภาพแห่งเรื่องราว</h2></div><p>ภาพประกอบเชิงบรรยากาศ<br>พร้อมคำอธิบายเพื่อการเรียนรู้</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item gallery-large reveal" data-gallery="architecture"><span class="gallery-art art-1"></span><span class="gallery-caption"><small>01 / BUILT HERITAGE</small><b>ศิลปะในพื้นที่และอาคาร</b></span></button>
+        <button class="gallery-item reveal" data-gallery="textile"><span class="gallery-art art-2"></span><span class="gallery-caption"><small>02 / CRAFT</small><b>ลวดลายและงานฝีมือ</b></span></button>
+        <button class="gallery-item reveal" data-gallery="performance"><span class="gallery-art art-3"></span><span class="gallery-caption"><small>03 / PERFORMANCE</small><b>ศิลปะการแสดง</b></span></button>
+      </div>
+      <p class="gallery-disclaimer">หมายเหตุ: ภาพประกอบในหน้านี้เป็นงานกราฟิกตกแต่งที่สร้างด้วย CSS ไม่ใช่ภาพถ่ายหลักฐานของสถานที่หรือประเพณีจริง ควรเพิ่มภาพจากแหล่งที่ตรวจสอบสิทธิ์และข้อมูลแล้วก่อนเผยแพร่เพื่อการอ้างอิงทางวิชาการ</p>
+    </section>
+
+    <section class="quiz-section section-pad" id="quiz">
+      <div class="quiz-intro reveal"><p class="eyebrow">LEARN & PLAY</p><h2>ท้าทายความรู้<br><em>เรื่องศิลปวัฒนธรรมไทย</em></h2><p>ลองตอบคำถามสั้น ๆ แล้วตรวจสอบคะแนนของคุณได้ทันที</p><div class="quiz-progress"><span id="progressText">คำถาม 1 จาก 3</span><div class="progress-track"><span id="progressBar"></span></div></div></div>
+      <div class="quiz-card reveal" id="quizCard">
+        <div class="quiz-top"><span>THAI CULTURE QUIZ</span><span id="quizCount">01 / 03</span></div>
+        <h3 id="questionText">โขนเป็นศิลปะประเภทใด?</h3>
+        <div class="answer-list" id="answerList">
+          <button class="answer-option" data-answer="0">งานจิตรกรรมฝาผนัง</button><button class="answer-option" data-answer="1">นาฏศิลป์และการแสดง</button><button class="answer-option" data-answer="2">งานเครื่องปั้นดินเผา</button>
+        </div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+        <div class="quiz-footer"><span id="scoreText">คะแนน 0</span><button class="btn btn-dark" id="nextQuestion" disabled>คำถามถัดไป ↗</button></div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="about-symbol" aria-hidden="true">✳</div><div class="about-content reveal"><p class="eyebrow">ABOUT THIS PROJECT</p><h2>เรียนรู้มรดกไทย<br>อย่างมีความหมาย</h2><p>“สืบศิลป์ไทย” เป็นเว็บไซต์ต้นแบบเพื่อการเรียนรู้ศิลปะและวัฒนธรรมไทย เนื้อหาควรได้รับการตรวจสอบจากแหล่งข้อมูลที่เชื่อถือได้ และควรให้เครดิตภาพตามเงื่อนไขการใช้งานก่อนนำไปเผยแพร่จริง</p><a class="text-link" href="#sources">ดูแนวทางแหล่งอ้างอิง <span>↗</span></a></div>
+      <div class="sources" id="sources"><h3>แหล่งข้อมูลสำหรับศึกษาต่อ</h3><ul><li><a href="https://www.finearts.go.th/" target="_blank" rel="noopener noreferrer">กรมศิลปากร</a> — ศิลปกรรม โบราณสถาน และมรดกทางวัฒนธรรม</li><li><a href="https://www.culture.go.th/" target="_blank" rel="noopener noreferrer">กระทรวงวัฒนธรรม</a> — ข้อมูลด้านวัฒนธรรมและกิจกรรมทางวัฒนธรรม</li><li><a href="https://ich.unesco.org/" target="_blank" rel="noopener noreferrer">UNESCO Intangible Cultural Heritage</a> — ข้อมูลมรดกภูมิปัญญาทางวัฒนธรรม</li></ul><p class="source-note">ลิงก์เหล่านี้เป็นจุดเริ่มต้นในการค้นคว้า ไม่ได้หมายความว่าข้อความทุกส่วนในเว็บไซต์นี้ผ่านการตรวจสอบโดยหน่วยงานดังกล่าวแล้ว</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#top"><span class="brand-mark">ศ</span><span><strong>สืบศิลป์ไทย</strong><small>THAI ART & CULTURE</small></span></a><p>เรียนรู้ • สืบสาน • เคารพความหลากหลาย</p><a href="#top" class="back-top">กลับขึ้นด้านบน ↑</a><small class="copyright">© 2026 สืบศิลป์ไทย · เว็บไซต์ต้นแบบเพื่อการเรียนรู้</small></footer>
+
+  <dialog class="story-dialog" id="storyDialog" aria-labelledby="dialogTitle"><button class="dialog-close" id="dialogClose" aria-label="ปิดหน้าต่าง">×</button><p class="eyebrow">LEARNING NOTE</p><h2 id="dialogTitle">เรื่องราว</h2><p id="dialogText"></p><p class="dialog-note">เนื้อหานี้เป็นบทนำเพื่อชวนศึกษา ควรตรวจสอบรายละเอียดเฉพาะกับเอกสารหรือหน่วยงานที่เชื่อถือได้</p></dialog>
+</body>
+</html>
